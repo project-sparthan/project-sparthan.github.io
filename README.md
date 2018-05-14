@@ -1,3 +1,3 @@
 # Sparthan Project
-## (Simple Prosthetic Artitificial Hand)
+## (Simple Prosthetic Artificial Hand)
 Official Website for the project
