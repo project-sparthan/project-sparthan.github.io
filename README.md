@@ -1,3 +1,3 @@
-# Briareus
-Webpage for the Briareus project
-
+# Sparthan Project
+## (Simple Prosthetic Artitificial Hand)
+Official Website for the project
