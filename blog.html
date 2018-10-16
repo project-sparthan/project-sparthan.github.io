@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="apple-touch-icon" sizes="180x180" href="AppIcon/Icon-App-60x60@3x.png">
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Sparthan</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
+
+   <!-- script
+   ================================================== -->   
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+
+</head>
+
+<body id="top">
+
+	<!-- header 
+   ================================================== -->
+   <header>   	
+   	<div class="row">
+
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+	   		<div class="logo">
+		         <a href="index.html">Sparthan</a>
+		      </div>		      
+
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="index.html" title="">Home</a></li>
+						<li><a  href="blog.html" title="">Blog</a></li>	
+						<li><a class="smoothscroll"  href="#post" title="">Posts</a></li>								
+					</ul>
+				</nav>    		
+   		</div> <!-- /top-bar --> 
+   		
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
+
+   	<div class="intro-overlay"></div>	
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+	   			<h5>The Sparthan</h5>
+	   			<h1>Blog</h1>
+
+	   			<p class="intro-position">
+	   				<span>U.C. Berkeley</span>
+	   				<span>Exoskeleton project</span> 
+	   			</p>
+
+	   			<a class="button stroke smoothscroll" href="#services" title="">Follow our journey</a>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
+
+   	<ul class="intro-social">        
+         <li><a href="#"><i class="fa fa-wrench"></i></a></li>
+         <li><a href="#"><i class="fa fa-terminal"></i></a></li>
+         <li><a href="#"><i class="fa fa-github"></i></a></li>
+      </ul> <!-- /intro-social -->      	
+
+   </section> <!-- /intro -->
+
+   <!-- about section
+   ================================================== -->
+   <section id="post">  
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Post</h5>
+   			<h1>What we do:</h1>
+
+   			<div class="intro-info">
+
+   				<!--
+   					<img src="https://raw.githubusercontent.com/d-asnaghi/Briareus/master/docs/images/profile-pic.jpg" alt="Profile Picture">
+   				-->
+
+   				<p class="lead">
+   				Follow our journey while we build an exoskeleton based on the Sparthan module here at U.C. Berkeley.</p>
+
+				<img src="images/exo.jpg" alt="Hand">
+
+   			</div>   			
+
+   		</div>   		
+   	</div> <!-- /section-intro --> 
+   </section>
+
+  
+   		<!-- services Section
+   ================================================== -->
+
+	<section id="services">
+
+		<div class="overlay"></div>
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Our App</h5>
+   			<h1>A web based 3D scanner</h1>
+
+   			<p class="lead">Just hold your arm still and ask a friend to take 10 pictures of it from different angles. <br><br>
+
+   			Follow the instruction below to upload them to our cloud <br><br>
+
+   			We will take care of the magic behind turning pictures into a detailed custom model to fit your hand as well as we can</p>
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row services-content">
+
+   		<div id="owl-slider" class="owl-carousel services-list">
+
+	      	<div class="service">	
+
+	      		<span class="icon"><i class="icon-upload"></i></span>            
+
+	            <div class="service-content">	
+
+	            	 <h3>Upload</h3>
+
+		            <p class="desc">
+		            	Select pictures from your library
+		            	<br><br>
+
+		            	<a class="button stroke " title="">
+
+		            		<input type="file" name="photo" id="photo" accept="image/*" multiple="multiple" class="inputfile" />
+
+		            		<label for="photo">Choose pictures</label>
+
+		            	</a>
+	         		</p>
+	         		
+	         	</div> 	         	 
+
+				</div> <!-- /service -->
+
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-file"></i></span>		            
+
+	            <div class="service-content">
+
+	            	<h3>Zip</h3>
+
+		            <p class="desc">
+		            	Compress them
+	        		</p> 
+
+	            </div> 	            	               
+
+			   </div> <!-- /service -->
+
+  			   <div class="service">
+
+			   	<span class="icon"><i class="icon-paper-plane"></i></span>	   	           
+
+	            <div class="service-content">
+
+	            	 <h3>Send</h3>
+
+		            <p class="desc"> 
+		            	Publish to our server
+		            </p> 
+	        			
+	            </div>	               
+
+			   </div> <!-- /service -->
+
+	      </div> <!-- /services-list -->
+   		
+   	</div> <!-- /services-content -->
+		
+	</section> <!-- /services -->	
+
+
+
+   
+   <!-- footer
+   ================================================== -->
+
+   <footer>
+     	<div class="row">
+
+     		<div class="col-six tab-full pull-right social">
+
+     			<ul class="footer-social">        
+         			<li><a href="http://www.linkedin.com/in/d-asnaghi" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+         			<li><a href="https://github.com/d-asnaghi"><i class="fa fa-github" target="_blank"></i></a></li>
+			   </ul> 
+	      		
+	      </div>
+
+      	<div class="col-six tab-full">
+	      	<div class="copyright">
+		        	<span>© Copyright Kards 2016.</span> 
+		        	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>	         	
+		         </div>		                  
+	      	</div>
+
+	      	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		      </div>
+
+      	</div> <!-- /row -->     	
+   </footer>  
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
+
+</html>
